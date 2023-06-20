@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* ********* to remove default page setting************** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* ******** Provide some style to body all the elements inside body inherit these styles****** */
+body{
+    margin: 1rem;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+}
+ /* ********************* Targeting nav tag ******************************* */
+nav{
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    line-height: 4rem;
+    font-size: 2rem;
+    overflow: hidden;
+}
+/* ---------targeting only h2 and styling it----------------------- */
+h2{
+    padding: 1rem;
+    background-color: yellow;
+    color:black;
+    /* this is to curve the color radius inside the borfer */
+    border-radius: 1rem 1rem 0 0;
+    /* 1rem is top left and top right and 0 ,0 are for the bottom left and bottom right */
+}
+ul{
+    list-style-type: none;
+    /* to remove the disc of li tag */
+}
+li{
+    border-top: 1px solid black;
+}
+ li a {
+    display: block;
+ }
+li a,
+li a:visited{
+    text-decoration: none;
+    color: #333;
+}
+li a:hover,
+li a :focus{
+    background-color: gray;
+    color: wheat;
+    /* border-radius:  0.6rem 0.6rem; */
+}
+li:last-child a{
+    /* border-radius: 0 0 1rem 1rem; */
+
+}
